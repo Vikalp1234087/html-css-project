@@ -1,0 +1,37 @@
+/* 
+.container{
+    height:500px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+
+} */
+/* .hello{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    /* box-sizing: border-box; */
+/* p{
+
+    position: static;
+} */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+.box{
+    position: relative;
+    left: 15px;
+}
