@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .wrapper {
+      font-family: sans-serif;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .grid-box, .inline-grid-box {
+      border: 2px solid blue;
+      padding: 10px;
+      gap: 10px;
+      grid-template-columns: repeat(2, 50px);
+    }
+
+    .grid-box {
+      display: grid;
+    }
+
+    .inline-grid-box {
+      display: inline-grid;
+    }
+
+    .item {
+      background: lightgreen;
+      padding: 5px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <h3>Display: grid (block-level)</h3>
+    <div class="grid-box">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+    </div>
+    <p>This text appears <strong>below</strong> the grid because it is block-level.</p>
+  </div>
+
+  <div class="wrapper">
+    <h3>Display: inline-grid (inline-level)</h3>
+    <span>This text is <span class="inline-grid-box">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+    </span> beside the inline-grid.</span>
+  </div>
+
+</body>
+</html>

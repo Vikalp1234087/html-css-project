@@ -1,0 +1,19 @@
+/* 
+:root{
+    Scope Global Ho Gaya Hai
+    --dark-red:#981a2c;
+}
+
+.container{
+    border: 1px solid pink;
+    background-color: red;
+    height: 300px;
+    width: 300px;
+}
+
+.box{
+    border: 2px solid green;
+    background-color: aqua;
+    --dark-red:#92c;
+    color: var(--dark-red);
+} */
